@@ -2,7 +2,7 @@ public class AddTwoNumbers {
        public static void main(String[] args){
        if(args.length <2) {
        System.out.println("Please provide  two numbers as arguments.");
-       return ;
+       return;
        }
        //Parse the numbers from command-Line arguments
        int num1 = Integer.parseInt(args[0]);
